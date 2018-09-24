@@ -1,0 +1,74 @@
+/* line 1, C:/Users/Josue/Desktop/myproject/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/Users/Josue/Desktop/myproject/scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 1, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+body {
+  font-family: "Georgia", sans-serif;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+/* line 9, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+#container {
+  width: 960px;
+  margin: 20px auto;
+  overflow: auto;
+  border: #ccc solid 1px;
+  background: white;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* line 20, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+nav {
+  height: 50px;
+  background: black;
+  color: white;
+  padding-top: 10px;
+}
+
+/* line 27, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+nav li {
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+/* line 32, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+nav a {
+  color: white;
+}
+
+/* line 36, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+section {
+  min-height: 200px;
+}
+
+/* line 40, C:/Users/Josue/Desktop/myproject/scss/base/_base.scss */
+footer {
+  text-align: center;
+}
+
+/* line 1, C:/Users/Josue/Desktop/myproject/scss/layout/_header.scss */
+header {
+  background: red;
+  color: #74ff8e;
+  height: 100px;
+}
+
+/* line 7, C:/Users/Josue/Desktop/myproject/scss/layout/_header.scss */
+header h1 {
+  padding: 20px 0 0 10px;
+}
+
+/*# sourceMappingURL=../css/main.map */
